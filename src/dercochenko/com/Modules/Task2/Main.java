@@ -1,4 +1,4 @@
-package dercochenko.com.Module1.Task2;
+package dercochenko.com.Modules.Task2;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args) throws ClassNotFoundException {
         MyClassLoader myClassLoader = new MyClassLoader();
 
-        System.out.println(myClassLoader.findClass(Class.forName("dercochenko.com.Module1.Task2.Main").getName()).getClassLoader());
+        System.out.println(myClassLoader.findClass(Class.forName("dercochenko.com.Modules.Task2.Main").getName()).getClassLoader());
     }
 }
 

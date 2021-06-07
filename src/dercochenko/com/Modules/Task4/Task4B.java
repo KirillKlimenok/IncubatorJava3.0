@@ -1,4 +1,4 @@
-package dercochenko.com.Module1.Task4;
+package dercochenko.com.Modules.Task4;
 
 public class Task4B {
     public static void main(String[] args) {

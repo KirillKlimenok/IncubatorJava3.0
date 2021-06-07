@@ -1,8 +1,4 @@
-package dercochenko.com.Module1.Task3;
-
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLClassLoader;
+package dercochenko.com.Modules.Task3;
 
 public class Main {
     public static void main(String[] args) {

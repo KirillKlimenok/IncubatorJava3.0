@@ -1,6 +1,4 @@
-package dercochenko.com.Module1.Task1;
-
-import java.util.ArrayList;
+package dercochenko.com.Modules.Task1;
 
 public class Main {
     public static void main(String[] args) {

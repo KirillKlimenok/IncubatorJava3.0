@@ -1,6 +1,5 @@
-package dercochenko.com.Module1.Task5;
+package dercochenko.com.Modules.Task5;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Task5 {

@@ -1,4 +1,4 @@
-package dercochenko.com.Module1.Task4;
+package dercochenko.com.Modules.Task4;
 
 import java.util.Scanner;
 import java.util.StringTokenizer;

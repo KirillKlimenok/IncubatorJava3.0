@@ -1,4 +1,4 @@
-package dercochenko.com.Module1.Task6;
+package dercochenko.com.Modules.Task6;
 
 import java.util.Scanner;
 

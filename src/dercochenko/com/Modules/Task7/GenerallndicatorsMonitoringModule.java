@@ -1,4 +1,4 @@
-package dercochenko.com.Module1.Task7;
+package dercochenko.com.Modules.Task7;
 
 class GeneralIndicatorsMonitoringModule implements MonitoringSystem{
     @Override

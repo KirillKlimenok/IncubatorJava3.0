@@ -1,4 +1,4 @@
-package dercochenko.com.Module1.Task6;
+package dercochenko.com.Modules.Task6;
 
 public class Belavia {
     private String flightDestinationName;
