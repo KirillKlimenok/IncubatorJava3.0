@@ -8,7 +8,7 @@ public class Task2 {
     public static void main(String[] args) throws ClassNotFoundException {
         System.out.println("Hello");
         MyClassLoader myClassLoader = new MyClassLoader();
-        System.out.println(myClassLoader.findClass("dercochenko.com.Main").getClassLoader());
+        System.out.println(myClassLoader.findClass("dercochenko.com.Modules.Task2.Main").getClassLoader());
     }
 }
 class MyClassLoader extends ClassLoader {
@@ -16,7 +16,7 @@ class MyClassLoader extends ClassLoader {
     protected Class<?> findClass(String name) throws ClassNotFoundException {
         byte[] bytes = new byte[0];
         try {
-            bytes = Files.readAllBytes(Paths.get("D:\\Car\\src\\dercochenko\\com\\Main.class"));
+            bytes = Files.readAllBytes(Paths.get("D:\\IncubatorJava3.0\\src\\dercochenko\\com\\Modules\\Task2\\Task2.class"));
         } catch (IOException e) {
             e.printStackTrace();
         }
