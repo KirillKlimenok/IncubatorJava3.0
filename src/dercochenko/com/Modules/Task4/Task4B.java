@@ -1,13 +1,16 @@
 package dercochenko.com.Modules.Task4;
 
+import java.util.Arrays;
+
 public class Task4B {
     public static void main(String[] args) {
         String text = "Hello, user! How are you?";
 
+
         System.out.println("1)" +" "+  TextEditor.addStringInEndLine(text, "Fine!"));
         System.out.println("2)" +" "+  TextEditor.insertWordInText(text, text.indexOf(' '), "dear"));
         System.out.println("3)" +" "+  TextEditor.deleteChar(text, '!'));
-        System.out.println("3)" +" "+  text.replace("user","programmer"));
+        System.out.println("4)" +" "+  text.replace("user","programmer"));
     }
 
 }

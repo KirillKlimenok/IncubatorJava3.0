@@ -20,13 +20,16 @@ public class Task4G {
 
         for (int i = 0; i < size; i++) {
             stringBuilder.append(scanner.nextLine());
-            if (stringBuilder.isEmpty() || stringBuilder.toString().equals("")) {
+            if (stringBuilder.isEmpty() || stringBuilder.toString().equals(" ")) {
                 words[i] = "String is empty";
             } else {
                 words[i] = stringBuilder.toString();
             }
             stringBuilder.delete(0, stringBuilder.length());
         }
-        System.out.println(Arrays.toString(words));
+        for (String s:
+             words) {
+            System.out.println(s);
+        }
     }
 }

@@ -22,4 +22,4 @@ public class Main {
     }
 }
 
-class MyClass{}
+class MyClass extends Main{}
