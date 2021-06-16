@@ -4,22 +4,19 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-public class Main {
+public class Task2 {
     public static void main(String[] args) throws ClassNotFoundException {
+        System.out.println("Hello");
         MyClassLoader myClassLoader = new MyClassLoader();
-
-        System.out.println(myClassLoader.findClass(Class.forName("D:\\IncubatorJava3.0\\src\\dercochenko\\com\\Modules\\Task2\\Main.java").getName()).getClassLoader());
+        System.out.println(myClassLoader.findClass("dercochenko.com.Main").getClassLoader());
     }
 }
-
 class MyClassLoader extends ClassLoader {
     @Override
-    protected Class<?> findClass(String name) {
+    protected Class<?> findClass(String name) throws ClassNotFoundException {
         byte[] bytes = new byte[0];
-
-
         try {
-            bytes = Files.readAllBytes(Paths.get("D:\\IncubatorJava3.0\\src\\dercochenko\\com\\Modules\\Task2\\MyClassLoader.class"));
+            bytes = Files.readAllBytes(Paths.get("D:\\Car\\src\\dercochenko\\com\\Main.class"));
         } catch (IOException e) {
             e.printStackTrace();
         }
